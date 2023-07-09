@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Arival from './component/Arival';
+import Brand from './component/Brand';
+import Section from './component/Section';
+import Navbar2 from './component/Navbar2';
+import Payday from './component/Payday';
+import Yellow from './component/Yellow';
+import Young from './component/Young';
+import Shopping from './component/Shopping';
+import Mobilex from './component/Mobilex';
+import Footer from './component/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar2/>
+      <Section/>
+      <Brand/>
+      <Arival/>
+      <Payday/>
+      <Yellow/>
+      <Young/>
+      <Mobilex/>
+      <Shopping/>
+      <Footer/>
     </div>
   );
 }
